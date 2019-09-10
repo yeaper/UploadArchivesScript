@@ -2,7 +2,7 @@ apply plugin: 'maven'
 
 def libVersion;
 def libArtifactId;
-def libGroupId = 'cn.daily.android';
+def libGroupId = 'com.xxx.android';
 def libDescription = 'lib';
 
 task readProperty() {
@@ -10,7 +10,7 @@ task readProperty() {
     if (!file.exists()) {
         file.createNewFile();
         Writer writer = file.newWriter();
-        writer.writeLine("groupId=cn.daily.android");
+        writer.writeLine("groupId=com.xxx.android");
         writer.writeLine("artifactId=" + project.name);
         writer.writeLine("version=0.0.1-SNAPSHOT");
         writer.writeLine("description=默认描述,请根据情况修改相应字段");
