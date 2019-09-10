@@ -1,2 +1,2 @@
 # UploadArchivesScript
-aar上传脚本
+AAR、source、JavaDoc上传脚本
